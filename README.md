@@ -26,7 +26,7 @@ Like I said earlier, It's for the freaks who care about nature... like us, NGOs 
 
 # Setup Astra
 ---
-### First of all I would like to thank astra for giving me 5GB free, no credit required `Wondering the catch?` Me too... tell if you find one.
+### First of all I would like to thank astra for giving me 5GB free, no credit card required `Wondering the catch?` Me too... tell if you find one.
 ---
 ### DataStax Astra
 1. Create a [DataStax Astra account](https://astra.datastax.com/register) if you don't
@@ -50,10 +50,19 @@ already have one:
 information (we'll need this later!):
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-connect.png)
 
-### After having your DB set, you can use this as a template on github, button is 👆
+### After having your DB set, you can use this as a template on github, click the <use as template> button  👆 or...
 ---
+Clone to your local machine...
+`git clone <put copied git link here>`
+
+Install all dependencies in package.json
+`npm install`
+
+While that is working, you should sort your .env file, go to the .env.sample file you will get details on your environment variables
+
 While you can run the app with `npm start` I would advise using `npx netlify dev` to enable you utilize netlify
 
-to be continued...
+Happy coding!
 
 *Make sure to get the backend for authentication at 👉* [save-earth-BE](https://github.com/Bayurzx/save-earth-BE)
+Note that after signup, you can switch the role from regular user => `user: 0` to Administrator `admin:1` at the backend
