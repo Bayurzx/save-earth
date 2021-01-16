@@ -18,11 +18,11 @@ Create entries of newly discovered, rare, or near-extinct life discoveries on ea
 This app was designed for the explorers, adventurers of the world. It is a way for you to feature something weird you saw from any where on earth and save it. Hence, Save-Earth get it... 😁☺😓😓
 
 # How???
-Give it a name, add a caption, give some description, tell us where you saw it. Take a pic, sned us the link, just the link please.
+Give it a name, add a caption, give some description, tell us where you saw it. Take a pic, send us the link, just the link please.
 When adding a location have in mind that the app uses `Google Geocoder API` So use a language Google map will understand. It also uses `Google Javascript Map API` for exact coordinates all well integrated into the React App, so, don't forget to click the coordinate button!
 
 # Who??
-Like I said earlier, It's for the freaks who care about nature... like us, NGOs that care about what's on earth, etc...
+Like I said earlier, It's for the freaks who care about nature... like us, NGOs, scientist, researchers, explorers etc... that care about what's on earth, etc...
 
 # Setup Astra
 ---
@@ -58,11 +58,11 @@ Clone to your local machine...
 Install all dependencies in package.json
 `npm install`
 
-While that is working, you should sort your .env file, go to the .env.sample file you will get details on your environment variables
+While that is working, you should sort out your .env file, go to the .env.sample file you will get details on your environment variables
 
-While you can run the app with `npm start` I would advise using `npx netlify dev` to enable you utilize netlify
+While you can run the app with `npm start` I would advise using `npx netlify dev` to enable you utilize netlify-functions
 
 Happy coding!
 
 *Make sure to get the backend for authentication at 👉* [save-earth-BE](https://github.com/Bayurzx/save-earth-BE)
-Note that after signup, you can switch the role from regular user => `user: 0` to Administrator `admin:1` at the backend
+Note that after signup, you can switch the role from regular user => `user: 0` to Administrator => `admin:1` at the backend

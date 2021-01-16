@@ -151,8 +151,8 @@ const Detail = (props) => {
             { GoogleMap(detail.location) }
             <div>
               <br/> <hr/>
-              <button onClick={() => setMap(!map)} className="btn btn-lg btn-outline-danger mr-2 ml-5">Toggle Map</button>
-              <button onClick={() => setLatLng(!latlng)} className="btn btn-lg btn-outline-success mr-2 ml-5">Use {`${latlng ? 'Coordinates':'Given Address'}`}</button>
+              <button onClick={() => setMap(!map)} className="btn btn-lg btn-outline-danger mr-2 ml-2 mb-5">Toggle Map</button>
+              <button onClick={() => setLatLng(!latlng)} className="btn btn-lg btn-outline-success mr-2 ml-5 mb-5">Use {`${latlng ? 'Coordinates':'Given Address'}`}</button>
             </div>
             {/* <DisqusBox detail={detail} /> */}
           </div>
