@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+<!--- STARTEXCLUDE --->
+# Save Earth with Astra
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Create entries of newly discovered, rare, or near-extinct life discoveries on earth for the world to see!
 
-## Available Scripts
+<!---Add Image here --->
 
-In the project directory, you can run:
+## Stack Highlights 🥪🥪🥪
+### This web app makes use of :
+- Reactjs : Render components from your db and make them dynamic and responsive to user input.
+- Netlify : Are you new to Netlify, so was I when I started this project. It's easy to learn. Provides a powerful serverless platform that's easy to scale
+- Astra DataStax : Also my first time using Astra, You can easily perform CRUD operations with Astra Collections. Astra's edge is at their low latency and high-write operations suitable for BigData ops.
 
-### `npm start`
+## You Should Know That...
+*while this was created to be serverless with Netlify and 96% of operations are carried out using Netlify and Astra it does use a tiny weenie bit of backend for Authentication and only authentication(signup and signin) why?... For Security..., because it was easier... who knows! I would need you to get waaay off my back, it's my app! Now let's get started.*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Why???
+This app was designed for the explorers, adventurers of the world. It is a way for you to feature something weird you saw from any where on earth and save it. Hence, Save-Earth get it... 😁☺😓😓
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# How???
+Give it a name, add a caption, give some description, tell us where you saw it. Take a pic, sned us the link, just the link please.
+When adding a location have in mind that the app uses `Google Geocoder API` So use a language Google map will understand. It also uses `Google Javascript Map API` for exact coordinates all will integrated into the React App
 
-### `npm test`
+# Who??
+Like I said earlier, It's for the freaks who care about nature... like us, NGOs that care about what's on earth, etc...
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### DataStax Astra
+1. Create a [DataStax Astra account](https://astra.datastax.com/register) if you don't
+already have one:
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-register-basic-auth.png)
 
-### `npm run build`
+2. On the home page. Locate the button **`Add Database`**
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-dashboard.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Pick **free plan** and a **region** close to you, click configure.
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db-1-top.png)
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db-1-bottom.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Define a **database name**, **keyspace name** and **credentials** (Take note of the DB Password)
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db-2.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Your Astra DB will be ready when the status will change from *`Pending`* to **`Active`** 💥💥💥
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-active.png)
 
-### `npm run eject`
+6. After your database is provisioned, head to the `Connect` screen and copy your connection
+information (we'll need this later!):
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-connect.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### After having your DB set, you can use this as template on github
+*Make sure to get the backend for authentication at 👉* [save-earth-BE](https://github.com/Bayurzx/save-earth-BE)
