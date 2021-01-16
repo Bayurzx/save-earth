@@ -19,11 +19,15 @@ This app was designed for the explorers, adventurers of the world. It is a way f
 
 # How???
 Give it a name, add a caption, give some description, tell us where you saw it. Take a pic, sned us the link, just the link please.
-When adding a location have in mind that the app uses `Google Geocoder API` So use a language Google map will understand. It also uses `Google Javascript Map API` for exact coordinates all will integrated into the React App
+When adding a location have in mind that the app uses `Google Geocoder API` So use a language Google map will understand. It also uses `Google Javascript Map API` for exact coordinates all well integrated into the React App, so, don't forget to click the coordinate button!
 
 # Who??
 Like I said earlier, It's for the freaks who care about nature... like us, NGOs that care about what's on earth, etc...
 
+# Setup Astra
+---
+### First of all I would like to thank astra for giving me 5GB free, no credit required `Wondering the catch?` Me too... tell if you find one.
+---
 ### DataStax Astra
 1. Create a [DataStax Astra account](https://astra.datastax.com/register) if you don't
 already have one:
@@ -46,5 +50,10 @@ already have one:
 information (we'll need this later!):
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-connect.png)
 
-### After having your DB set, you can use this as template on github
+### After having your DB set, you can use this as a template on github, button is 👆
+---
+While you can run the app with `npm start` I would advise using `npx netlify dev` to enable you utilize netlify
+
+to be continued...
+
 *Make sure to get the backend for authentication at 👉* [save-earth-BE](https://github.com/Bayurzx/save-earth-BE)
