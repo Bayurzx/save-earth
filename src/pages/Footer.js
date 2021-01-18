@@ -1,6 +1,6 @@
 import '../extra/css/style.css'
 import '../extra/css/font-awesome.min.css'
-import hackImage from '../extra/images/portfolio/thumb/4.jpg';
+import hackImage from '../extra/images/4.jpg';
 
 // import '../extra/css/parallax.css'
 const Footer = () => {
