@@ -154,7 +154,7 @@ const Detail = (props) => {
               <button onClick={() => setMap(!map)} className="btn btn-lg btn-outline-danger mr-2 ml-2 mb-5">Toggle Map</button>
               <button onClick={() => setLatLng(!latlng)} className="btn btn-lg btn-outline-success mr-2 ml-5 mb-5">Use {`${latlng ? 'Coordinates':'Given Address'}`}</button>
             </div>
-            {/* <DisqusBox detail={detail} /> */}
+            <DisqusBox detail={detail} />
           </div>
         </div>
     </Layout>

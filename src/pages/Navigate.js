@@ -24,7 +24,7 @@ const Navigate = ({ history }) => {
           </li>) }
 
         <li className="nav-item">
-          <Link className="nav-link bg-alert" style= {isActive(history, '/cart')} to="/cart">Urgent! <sup><small className="cart-badge">2</small> </sup> </Link>
+          <Link className="nav-link bg-alert" style= {isActive(history, '/saviour')} to="/saviour">Our Saviour</Link>
         </li>
 
         { isAuthenticated() && isAuthenticated().user.role === 0 && (

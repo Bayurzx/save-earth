@@ -24,7 +24,6 @@ const Card = ({ detail }) => {
           <p><em>{detail.caption}</em></p>
           <p><strong>Found at:</strong> {detail.location}</p>
           { detailBtn() }
-          <button className="btn btn-outline-primary mt-2 mb-2">Donate</button>
         </div>
       </div>
     </div>

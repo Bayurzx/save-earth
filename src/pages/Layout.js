@@ -1,4 +1,5 @@
 import Navigate from './Navigate';
+import Footer from './Footer';
 import "../App.css"
 
 
@@ -10,6 +11,7 @@ const Layout = ({ title = "Title", description = "Description", children, classN
         <p className="lead">{ description }</p>
       </div>
       <div className={ className }>{ children }</div>
+      <Footer />
     </div>
 )
 

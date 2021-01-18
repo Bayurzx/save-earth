@@ -6,6 +6,7 @@ import Signup from './auth/Signup';
 import Signin from './auth/Signin';
 import Detail from './pages/Detail';
 import Upload from './pages/Upload';
+import Saviour from './pages/Saviour';
 import Dashboard from './auth/UserDashboard';
 import Profile from './auth/Profile';
 import AdminDashboard from './auth/AdminDashboard';
@@ -21,6 +22,7 @@ const Routes = () => {
             <Route path="/signup" exact component={Signup} />
             <Route path="/signin" exact component={Signin} />
             <Route path="/upload" exact component={Upload} />
+            <Route path="/saviour" exact component={Saviour} />
             <Route path="/detail/:detailId" exact component={Detail} />
             <PrivateRoute path="/user/dashboard" exact component={Dashboard} />
             <PrivateRoute path="/profile/:userId" exact component={Profile} />
