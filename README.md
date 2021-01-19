@@ -6,7 +6,7 @@ Create entries of newly discovered, rare, or near-extinct life discoveries on ea
 <!---Add Image here --->
 ![image](https://raw.githubusercontent.com/Bayurzx/save-earth/footer/screenshots/Home.jpg)
 ![image](https://raw.githubusercontent.com/Bayurzx/save-earth/footer/screenshots/Details.jpg)
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-register-basic-auth.png)
+![image](https://raw.githubusercontent.com/Bayurzx/save-earth/footer/screenshots/footer2.jpg)
 
 
 ## Stack Highlights 🥪🥪🥪
