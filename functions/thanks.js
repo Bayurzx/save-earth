@@ -20,7 +20,7 @@ exports.handler = async function (event, context, callback) {
         .collection(collection)
 
         const body = JSON.parse(event.body)
-        console.log('body', body);
+
         const data = {
           id: myuuid,
           username: body.username,

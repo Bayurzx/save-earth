@@ -13,19 +13,6 @@ export const posts = async() => {
   return response;
 }
 
-export const addData = async(bodyFormData) => {
-  await fetch('/.netlify/functions/addData', {
-    method: 'POST',
-    headers: {
-      Accept: "application/json"
-    },
-    body: JSON.stringify(bodyFormData)
-    })
-    .then((result) => console.log(JSON.stringify(bodyFormData)))
-    .catch((error) => console.error(error));
-
-}
-
 export const getBraintreeClientToken = (userId, token) => {
   return fetch(`${API}/braintree/getToken/${userId}`, {
     method: "GET",

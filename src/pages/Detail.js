@@ -57,7 +57,7 @@ const Detail = (props) => {
   useEffect(()=> {
     const detailID = props.match.params.detailId;
     loadSingleProduct(detailID)
-  }, [props])
+  }, [])
 
   let pos;
 
@@ -133,27 +133,29 @@ const Detail = (props) => {
         <div className="row faded">
           <div className="col-lg-6 col-xs-12 mb-3">
               { detail && detail.description && <Cardo detail={detail} />}
-              <span>
-                <button className="btn btn-disabled mr-5 mb-2 jumbotron">Select amount 👉</button>
-                <button onClick={() => setCount(count + 1)} className="btn btn-sm btn-outline-primary mr-2 mb-2">$1</button>
-                <button onClick={() => setCount(count + 5)} className="btn btn-sm btn-outline-info mr-2 mb-2">$5</button>
-                <button onClick={() => setCount(count + 20)} className="btn btn-outline-secondary mr-2 mb-2">$20</button>
-                <button onClick={() => setCount(count + 50)} className="btn btn-lg btn-outline-warning mr-2 mb-2">$50</button>
-                <button onClick={() => setCount(count + 100)} className="btn btn-lg btn-outline-danger mr-2 mb-2">$100</button>
-                <button onClick={() => setCount(0)} className="btn btn-lg btn-outline-danger mr-2 ml-5">Clear</button>
-              </span>
+              <div className="mt-4 ml-1">
+
+                { GoogleMap(detail.location) }
+              </div>
+              <div className="mb-5">
+                <br/> <hr/>
+                <button onClick={() => setMap(!map)} className="btn btn-lg btn-outline-danger mr-2 ml-2">Toggle Map</button>
+                <button onClick={() => setLatLng(!latlng)} className="btn btn-lg btn-outline-success mr-2 ml-5">Use {`${latlng ? 'Coordinates':'Given Address'}`}</button>
+              </div>
           </div>
 
           <div className="col-lg-6 col-xs-12">
-            <h2 className="mb-3">Donation is Here 👇</h2>
-            <Checkout amount={count} />
+            <span>
+              <button className="btn btn-disabled mr-5 mb-2 jumbotron" style={{height: "50px"}}>Add amount to donate 👉</button>
+              <button onClick={() => setCount(count + 1)} className="btn btn-sm btn-outline-primary mr-2 mb-2">$1</button>
+              <button onClick={() => setCount(count + 5)} className="btn btn-sm btn-outline-info mr-2 mb-2">$5</button>
+              <button onClick={() => setCount(count + 20)} className="btn btn-outline-secondary mr-2 mb-2">$20</button>
+              <button onClick={() => setCount(count + 50)} className="btn btn-lg btn-outline-warning mr-2 mb-2">$50</button>
+              <button onClick={() => setCount(count + 100)} className="btn btn-lg btn-outline-danger mr-2 mb-2">$100</button>
+              <button onClick={() => setCount(0)} className="btn btn-lg btn-outline-danger mr-2 ml-5">Clear</button>
+            </span>
             <hr/><br/>
-            { GoogleMap(detail.location) }
-            <div>
-              <br/> <hr/>
-              <button onClick={() => setMap(!map)} className="btn btn-lg btn-outline-danger mr-2 ml-2 mb-5">Toggle Map</button>
-              <button onClick={() => setLatLng(!latlng)} className="btn btn-lg btn-outline-success mr-2 ml-5 mb-5">Use {`${latlng ? 'Coordinates':'Given Address'}`}</button>
-            </div>
+            <Checkout amount={count} />
             <DisqusBox detail={detail} />
           </div>
         </div>

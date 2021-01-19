@@ -12,7 +12,7 @@ const ManageProducts = () => {
   const loadProducts = () => {
     axios.get('/.netlify/functions/posts')
     .then(response => {
-      console.log(response.data)
+
       setHistory(response.data)
     })
     .catch(error => console.error(error))

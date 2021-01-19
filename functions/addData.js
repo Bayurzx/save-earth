@@ -20,8 +20,7 @@ exports.handler = async function (event, context, callback) {
       .namespace(process.env.ASTRA_DB_KEYSPACE)
       .collection(collection)
 
-      const body = JSON.parse(event.body)
-      console.log("email", body.email);
+    const body = JSON.parse(event.body)
 
     const data = {
       id: myuuid,

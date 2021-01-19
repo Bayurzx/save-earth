@@ -7,7 +7,7 @@ import DropIn from "braintree-web-drop-in-react";
 import axios from 'axios';
 
 const Checkout = ({amount}) => {
-  console.log(amount);
+
   const [data, setData] = useState({
     success: false,
     clientToken: null,

@@ -8,7 +8,6 @@ const Saviour = () => {
   const loadProducts = () => {
     axios.get('/.netlify/functions/getThanks')
     .then(response => {
-      console.log(response.data)
       setHistory(response.data)
     })
     .catch(error => console.error(error))

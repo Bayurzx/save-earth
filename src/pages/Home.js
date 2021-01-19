@@ -49,7 +49,7 @@ const Home = () => {
   }, [])
 
   return (
-    <Layout title="Home Page" description="Discover Wildlife and Plants" className="container-fluid">
+    <Layout title="Save Earth" description="Discover Wildlife and Plants" className="container-fluid">
       <h2 className="mb-4">Animals</h2>
       <div className="row">
         { animal.map((d, i) => (

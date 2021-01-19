@@ -18,7 +18,7 @@ exports.handler = async (event, context, callback) => {
     const id = event.body
 
     try {
-        console.log(id)
+
         var res = await posts.delete(id)
 
         res = JSON.stringify(res)

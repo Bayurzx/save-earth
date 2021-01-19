@@ -1,0 +1,14 @@
+This app was designed for the explorers, adventurers of the world. It is a way for you to feature something weird you saw from any where on earth and save it. Hence, Save-Earth get it... 😁😓😓.
+
+The main object of this project is to create awareness for endangered life on earth, It creates an avenue to showcase your discovery but adding a bit of spotlight to it.
+
+It could either become a social app for the beauty of life on earth or a register for data scientist, researchers, NGO etc...
+
+The app is still in the early stages and I have so much ideas for improvement, such getting live reading on animals with wearables, creating datasets for research, providing data for engineers working on animal robotics etc...
+
+
+reactjsnetlifydatastax-enterprisedatastaxexpressnode.jsmongodb
+
+OVERVIEW: https://youtu.be/xKeijfUiPt0 ; UPLOAD : https://youtu.be/IMt58DpbNEI ; DETAILs: https://youtu.be/VPXYpti8Jew ;
+
+https://github.com/Bayurzx/save-earth
