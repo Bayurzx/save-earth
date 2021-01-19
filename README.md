@@ -11,7 +11,7 @@ Create entries of newly discovered, rare, or near-extinct life discoveries on ea
 
 ## Stack Highlights 🥪🥪🥪
 ### This web app makes use of :
-- Reactjs : Render components from your db and make them dynamic and responsive to user input.
+- Reactjs : Render components with data from your db and make them dynamic and responsive to user input.
 - Netlify : Are you new to Netlify, so was I when I started this project. It's easy to learn. Provides a powerful serverless platform that's easy to scale
 - Astra DataStax : Also my first time using Astra, You can easily perform CRUD operations with Astra Collections. Astra's edge is at their low latency and high-write operations suitable for BigData ops.
 
@@ -22,7 +22,7 @@ Create entries of newly discovered, rare, or near-extinct life discoveries on ea
 This app was designed for the explorers, adventurers of the world. It is a way for you to feature something weird you saw from any where on earth and save it. Hence, Save-Earth get it... 😁☺😓😓
 
 # How???
-Give it a name, add a caption, give some description, tell us where you saw it. Take a pic, send us the link, just the link please.
+Give it a name, add a caption, give some description, tell us where you saw it. Take a pic, send us the link, *just the link please*.
 When adding a location have in mind that the app uses `Google Geocoder API` So use a language Google map will understand. It also uses `Google Javascript Map API` for exact coordinates all well integrated into the React App, so, don't forget to click the coordinate button!
 
 # Who??
