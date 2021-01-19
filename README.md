@@ -26,7 +26,7 @@ Give it a name, add a caption, give some description, tell us where you saw it. 
 When adding a location have in mind that the app uses `Google Geocoder API` So use a language Google map will understand. It also uses `Google Javascript Map API` for exact coordinates all well integrated into the React App, so, don't forget to click the coordinate button!
 
 # Who??
-Like I said earlier, It's for the freaks who care about nature... like us, NGOs, scientist, researchers, explorers etc... that care about what's on earth, etc...
+Like I said earlier, It's for we, the environmental freaks, who care about nature... NGOs, scientist, researchers, explorers etc... that care about what's on earth, etc...
 
 # Setup Astra
 ---
