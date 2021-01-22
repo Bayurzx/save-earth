@@ -28,7 +28,17 @@ When adding a location have in mind that the app uses `Google Geocoder API` So u
 # Who??
 Like I said earlier, It's for we, the environmental freaks, who care about nature... NGOs, scientist, researchers, explorers etc... that care about what's on earth, etc...
 
-# Setup Astra
+---
+# Checkout the site here 👉 [saveearth](https://saveearth.xyz/) 👈
+---
+- Feel free to create your own discovery
+- The donation is in a sandbox for now (braintree) feel free to use this fake card detail for testing:
+    4111 1111 1111 1111
+    12/22
+
+# Setup
+
+## Setup Astra
 ---
 ### First of all I would like to thank astra for giving me 5GB free, no credit card required `Wondering the catch?` Me too... tell if you find one.
 ---
