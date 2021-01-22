@@ -31,7 +31,7 @@ Like I said earlier, It's for we, the environmental freaks, who care about natur
 ---
 # Checkout the site here 👉 [saveearth](https://saveearth.xyz/) 👈
 ---
-- First, signup and then signin (ensure your password is alphanumeric is a symbol and one capital letter)
+- First, signup and then signin (ensure your password has the following: alphanumeric, symbol and one capital letter)
 - Upload link only show after signin
 - Feel free to explore and create your own discovery
 - The donation is in a sandbox for now (braintree) feel free to use this fake card detail for testing:
