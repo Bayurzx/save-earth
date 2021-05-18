@@ -31,7 +31,7 @@ Like I said earlier, It's for we, the environmental freaks, who care about natur
 ---
 # Checkout the site here 👉 [saveearth](https://saveearth.xyz/) 👈
 ---
-- First, signup and then signin (ensure your password has the following: alphanumeric, symbol and one capital letter)
+- First, signup and then signin (ensure your password has the following: alphanumeric, symbol and one capital letter **__eg.__ P@$$word123**)
 - Upload link only show after signin
 - Feel free to explore and create your own discovery
 - The donation is in a sandbox for now (braintree) feel free to use this fake card detail for testing:
@@ -45,26 +45,30 @@ Like I said earlier, It's for we, the environmental freaks, who care about natur
 ### First of all I would like to thank astra for giving me 5GB free, no credit card required `Wondering the catch?` Me too... tell if you find one.
 ---
 ### DataStax Astra
-1. Create a [DataStax Astra account](https://astra.datastax.com/register) if you don't
-already have one:
+1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=astra-tik-tok) if you don't already have one:
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-register-basic-auth.png)
 
-2. On the home page. Locate the button **`Add Database`**
+2. On the home page. Locate the button **`Create Database`**
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-dashboard.png)
 
-3. Pick **free plan** and a **region** close to you, click configure.
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db-1-top.png)
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db-1-bottom.png)
+3. Locate the **`Get Started`** button to continue
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-select-plan.png)
 
-4. Define a **database name**, **keyspace name** and **credentials** (Take note of the DB Password)
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db-2.png)
+4. Define a **database name**, **keyspace name** and select a database **region**, then click **create database**.
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db.png)
 
 5. Your Astra DB will be ready when the status will change from *`Pending`* to **`Active`** 💥💥💥
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-active.png)
 
-6. After your database is provisioned, head to the `Connect` screen and copy your connection
-information (we'll need this later!):
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-connect.png)
+6. After your database is provisioned, we need to generate an Application Token for our App. Go to the `Settings` tab in the database home screen.
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-settings.png)
+
+1. Select `Admin User` for the role for this Sample App and then generate the token. Download the CSV so that we can use the credentials we need later.
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-settings-token.png)
+
+1. After you have your Application Token, head to the database connect screen and copy the connection information that we'll need later. We'll replace `ASTRA_DB_APPLICATION_TOKEN` with the `Token` value that is part of your Application Token.
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-connect.png)
+
 
 ### After having your DB set, you can use this as a template on github, click the <use as template> button  👆 or...
 ---
